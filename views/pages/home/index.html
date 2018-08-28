@@ -1,0 +1,23 @@
+{% block content %}
+<link rel="stylesheet" href="./stylesheets/style.css">
+<div id="menu">
+	<h2 id="bootstrap">{{entry.home_button_start_bootstarta_.title}}</h2>
+
+	<div id="menues">		
+		<a href="#About" class="menue-title">{{entry.menues[0].link.title}}</a>
+		<a href="#shoreline-title" class="menue-title">{{entry.menues[1].link.title}}</a>
+		<a href="#Contact" class="menue-title">{{entry.menues[2].link.title}}</a>
+	</div>
+	<img src="{{entry.background_image.url}}" id="main-image">
+	<div id="main-content">
+		<h1 id="main-content-title">{{entry.main_content.title}}</h1>
+		<p id="main_content-desc">{{entry.main_content.description}}</p>
+	</div>
+</div>
+{% include '../about_page/index.html' %}
+{% include '../projects/index.html' %}
+{% include '../contact_us_page/index.html' %}
+
+
+{% endblock %}
+

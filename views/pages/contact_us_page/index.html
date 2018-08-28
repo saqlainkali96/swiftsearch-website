@@ -1,0 +1,21 @@
+{% block Contact %}
+<div id="Contact">
+
+  <table class="contact-details" width="100%">
+  
+    <tr> 
+      {% for data in contact.group %}
+      	<td id="{{data.number}}">{{data.title}}</td>
+      {% endfor %}
+    </tr>
+  
+    <tr>
+      {% for data in contact.group %}
+        <td>{{data.description}}</td>
+      {% endfor %}
+    </tr>
+
+  </table>
+</div>
+
+{%endblock%}

@@ -1,0 +1,37 @@
+{% block Projects %}
+<div id="main-project">
+	<div id="Projects">
+		<div id="sidebar">
+			<img id="shoreline-image" src="{{project.group.image.url}}">
+		</div>
+
+		<div id="page-wrap">
+			<h4 id="shoreline-title">{{project.group.shoreline_title}}</h4>
+			<p id="shoreline-desc">{{project.group.description}}</p>
+		</div>
+	</div>
+
+	<div id="projects">
+
+		<div id="Misty">
+			<div>
+				<img id="misty-image" src="{{project.group.projects[0].image.url}}">
+			</div>
+
+			<div>
+				<h4 id="misty-title">{{project.group.projects[0].project}}</h4><br>
+				<p id="misty-desc">{{project.group.projects[0].description}}</p>
+			</div>
+		</div>
+
+		<div id="Mountains">
+			<div>
+				<h4 id="mountain-title">{{project.group.projects[1].project}}</h4>
+				<p id="mountain-desc">{{project.group.projects[1].description}}</p>
+			</div>
+		<div>
+			<img id="mountain-image" src="{{project.group.projects[1].image.url}}">
+		</div>
+	</div>
+</div>
+{%endblock%}
