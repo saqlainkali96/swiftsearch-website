@@ -1,0 +1,80 @@
+.st-result-listing {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.8px;
+  margin-top: 40px;
+}
+
+form input.st-search-input {
+  font-size: 12px;
+  padding: 5px 9px 5px 27px;
+  height: 18px;
+  width: 200px;
+  color: #666;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+div.st-search-summary {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 7px;
+  margin: 12px 0;
+}
+
+div.st-result-listing {
+  width: 350px;
+}
+
+div.st-result-listing h2 {
+  font-size: 13px;
+  font-weight: normal;
+  color: #333;
+  margin: 0;
+}
+
+div.st-result-listing h2 .st-query {
+  font-style: italic;
+  color: #666;
+}
+
+div.st-result-listing h3 {
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+div.st-result {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+}
+
+div.st-result.final {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+div.st-result .st-snippet {
+  color: #333;
+}
+
+div.st-result .st-date {
+  color: #999;
+}
+
+.st-pagination {
+  border-top: 1px solid #ccc;
+  margin-top: 5px;
+  padding-top: 5px;
+}
+
+.st-prev {
+  margin-right: 20px;
+}
+
+.st-loading-message {
+  font-size: 16px;
+  font-style: italic;
+  color: #999;
+  margin: 10px auto;
+}
+
